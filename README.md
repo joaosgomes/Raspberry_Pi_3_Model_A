@@ -187,12 +187,19 @@ sudo systemctl start cloudflared
 ````
 
 
-| Public hostname                          | Path | Service                |
-| ---------------------------------------- | ---- | ---------------------: |
-| raspberrypi-portainer.joaosilvagomes.com | *    | http://localhost:9000  |
-| raspberrypi-rabbitmq.joaosilvagomes.com  | *    | http://localhost:15672 |
-| raspberrypi-ssh.joaosilvagomes.com       | *    | ssh://localhost:22     |
-| raspberrypi-mqtt.joaosilvagomes.com      | *    | http://localhost:15675 |
+| Public hostname                                    | Path | Service                |
+| -------------------------------------------------- | ---- | ---------------------: |
+| https://raspberrypi-portainer.joaosilvagomes.com   | *    | http://localhost:9000  |
+| https://raspberrypi-rabbitmq.joaosilvagomes.com    | *    | http://localhost:15672 |
+| https://raspberrypi-ssh.joaosilvagomes.com         | *    | ssh://localhost:22     |
+| ws://raspberrypi-mqtt.joaosilvagomes.com/ws        | *    | http://localhost:15675 |
+| https://raspberrypi-magicmirror.joaosilvagomes.com | *    | http://localhost:8080  |
+
+*Tested MQTT via https://github.com/joaosgomes/mqtt_amqp_rabbitmq using ws Protocol*
+
+<https://www.rabbitmq.com/web-mqtt.html>
+
+<https://community.cloudflare.com/t/mqtt-trough-cloudflare-tunnel/503599/10>
 
 # References:
 
