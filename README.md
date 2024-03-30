@@ -6,6 +6,17 @@
 
 ## SSH: ssh <pi@raspberrypi.local> pi@raspberrypi
 
+## xrdp + Windows Remote Desktop Connection
+
+
+````console
+Install https://github.com/stascorp/rdpwrap (Windows Home Only)
+
+sudo apt install xrdp
+````
+
+
+
 ## Docker + Portainer
 
 
