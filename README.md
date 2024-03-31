@@ -8,11 +8,33 @@
 
 ## xrdp + Windows Remote Desktop Connection
 
-
 ````console
 Install https://github.com/stascorp/rdpwrap (Windows Home Only)
 
 sudo apt install xrdp
+````
+
+
+## Find Ip Address
+
+````console
+
+ipconfig
+
+nmap -sn 192.168.1.0/24
+
+nmap  192.168.1.0/24
+
+
+
+# Find ip of MAC Address B8:27:EB:CE:A0:C0 (Raspberry Pi Foundation))  
+
+arp -a | findstr b8-27-eb
+
+# ping mdns raspberrypi.local
+ping raspberrypi
+
+ping raspberrypi -4
 ````
 
 
